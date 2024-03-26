@@ -15,8 +15,8 @@ body {
 }
 
 .wrapper {
-    width: 25%;
-    height: 25%;
+    width: clamp(200px, 50%, 500px);
+    height: clamp(200px, 50%, 500px);
 }
 
 .gif {
@@ -26,10 +26,11 @@ body {
 
 h2 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: clamp(20px, 5vw, 60px);
     color: #13cb26;
     margin: 15px 0;
 }
+
 .btn-group {
     width: 100%;
     height: 50px;
